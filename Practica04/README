@@ -1,0 +1,15 @@
+Integrantes:
+
+Jimenez Méndez Ricardo
+Rodríguez Abreu José Ricardo
+
+Ejercicio 3:
+
+En el caso donde hay un zurdo no puede ocurrir un deadlock por lo siguiente:
+
+   Supongamos que ocurre un deadlock, esto quiere decir que todos están esperando
+   que bajen el tenedor que están esperando. El filosofo 1 está esperando el izquierdo,
+   el 2 el izquierdo, el 3..., el n el izquierdo. Como existe un i que es zurdo,
+   entonces el zurdo tiene el izquierdo y espera el derecho, pero el filosofo de su izquierda
+   espera el tenedor derecho porque el tiene el izquierdo. Lo que supondría que o el zurdo no tiene
+   el tenedor izquierdo o el vecino izquierdo no tiene el tenedor derecho.
